@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+    <!-- {% load static %} -->
+    <link rel="stylesheet" href="{% static 'general.css' %}" />
+    <link rel="stylesheet" href="../static/general.css" />
+
+    <title>Kyle Astudillio</title>
+  </head>
+  <body class="h-fit w-screen bg-gradient-to-b to-black from-blue-500">
+    <div class="h-screen w-screen flex flex-col items-center">
+      <nav class="w-full flex items-center justify-between bg-black text-white p-4">
+        <h1 class="text-2xl font-semibold">Kyle Astudillio</h1>
+
+        <div class="flex gap-5 items-center w-[20%] text-center">
+          <a
+            href="#about"
+            class="hover:border-b-2 hover:border-white border-b-2 border-blue-500"
+            >About</a
+          >
+          <a
+            href="#skills"
+            class="hover:border-b-2 hover:border-white border-b-2 border-blue-500"
+            >Skills</a
+          >
+          <a
+            href="#contact"
+            class="hover:border-b-2 hover:border-white border-b-2 border-blue-500"
+            >Contact</a
+          >
+        </div>
+
+        <div>
+          <button
+            class="bg-white rounded-full py-1.5 px-5 text-[#12615a] font-semibold hover:bg-opacity-80"
+          >
+            Resume
+          </button>
+        </div>
+      </nav>
+
+      <div
+        class="w-[90%] h-[95%] fade-up flex items-center justify-center gap-10"
+      >
+
+      <div class="w-[30%] h-full">
+        <img src="../static/pic.png" class="h-full object-cover" alt="" />
+
+        <div class="w-screen bg-black p-2 fixed bg-opacity-80 translate-x-[-6rem] left-0 h-10 bottom-0">
+          2
+        </div>
+      </div>
+      
+        <div class="w-[40%] h-[50%]">
+          <span class="text-amber-400">Turn your idea into life</span>
+          <h1 class="text-6xl text-white">
+            I'm Kyle Astudillio, Web Developer
+          </h1>
+          <p class="mt-3 text-white">
+            Crafting dynamic and engaging websites, I specialize in building
+            responsive and user-friendly designs tailored to your needs.
+            Passionate about clean code and innovative solutions, I thrive on
+            bringing ideas to life on the web, blending creativity with
+            cutting-edge technology.
+          </p>
+
+          <div class="text-center flex items-center gap-2 mt-3">
+            <h1 class="text-sm text-white">Socials</h1>
+            <div class="text-2xl gap-4 flex cursor-pointer items-center">
+              <a href="https://www.facebook.com/kyleeebass">
+                <span
+                  class="iconify text-3xl hover:scale-125 transition"
+                  data-icon="logos:facebook"
+                >
+                </span>
+              </a>
+
+              <a
+                href=""
+              >
+                <span
+                  class="iconify text-3xl hover:scale-125 transition"
+                  data-icon="skill-icons:instagram"
+                ></span>
+              </a>
+
+              <a
+                href=""
+              >
+                <span
+                  class="iconify text-3xl hover:scale-125 transition"
+                  data-icon="logos:tiktok-icon"
+                ></span>
+              </a>
+
+              <a href="">
+                <span
+                  class="iconify text-2xl hover:scale-125 transition"
+                  data-icon="logos:youtube-icon"
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="h-screen w-screen flex px-5 items-center">
+      <div class="flex items-center justify-center h-full w-full">
+        <div
+          class="w-[35%] h-full flex flex-col items-center fade-left justify-center text-white"
+        >
+          <h1 class="text-start text-5xl mb-2">About Me</h1>
+          <p>
+            From a young age, I’ve always been deeply curious about the world of
+            technology. I was fascinated by how things worked, from gadgets to
+            software, which sparked my desire to learn more. Now, as I study
+            programming, I’m channeling that childhood curiosity into building
+            real-world applications and solving complex problems. My journey in
+            programming is driven by a passion for creating, innovating, and
+            continuously learning. I’m excited about exploring new technologies
+            and tools, and I’m eager to apply my knowledge to make a positive
+            impact in the world of tech.
+          </p>
+        </div>
+        <div class="w-[35%] h-full fade-up ">
+          <img src="../static/pic.png" class="h-full object-cover" alt="" />
+          <div class="w-screen bg-black p-2 fixed bg-opacity-80   left-[-103%] h-10 bottom-0">
+            2
+          </div>
+        </div>
+        <div
+          class="w-[35%] h-full flex flex-col fade-right items-center justify-center text-white"
+        >
+          <h1 class="text-start text-5xl mb-2">My Forte</h1>
+          <p class="text-end">
+            My forte lies in frontend development and web design, where I blend
+            creativity with technical skills to craft visually appealing and
+            user-friendly websites. I have a passion for creating seamless,
+            interactive user experiences that not only look great but also
+            function flawlessly across different devices and platforms. With a
+            keen eye for design and a solid understanding of HTML, CSS,
+            JavaScript,  Every line of code I write
+            is aimed at delivering a stunning web presence that connects with
+            users and makes an impact.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="h-screen w-full flex items-center justify-center p-3 fade-up">
+ 
+
+      <div class="w-[90%] h-[70%]">
+        <div class="flex items-center gap-2 h-1/2">
+          <div
+            class="w-[48%] fade-left h-fit bg-white rounded-lg flex flex-col text-white items-center p-6 bg-opacity-40 border border-white"
+          >
+            <span
+              data-icon="hugeicons:web-design-02"
+              class="iconify text-[5rem] max-2xl:text-5xl"
+            ></span>
+            <h1 class="text-3xl max-2xl:text-xl">Web Design</h1>
+            <p class="mt-3 text-center text-md max-2xl:text-sm">
+              I specialize in creating visually appealing and user-friendly
+              website designs that deliver seamless experiences. My designs
+              focus on aesthetics, functionality, and meeting the unique needs
+              of each project.
+            </p>
+          </div>
+          <div
+            class="w-[48%] h-fit fade-right bg-white rounded-lg flex flex-col text-white items-center p-6 bg-opacity-40 border border-white"
+          >
+            <span
+              data-icon="hugeicons:web-design-02"
+              class="iconify text-[5rem] max-2xl:text-5xl"
+            ></span>
+            <h1 class="text-3xl max-2xl:text-xl">Coding</h1>
+            <p class="mt-3 text-center text-md max-2xl:text-sm">
+              I develop clean, efficient, and scalable code for both front-end
+              and back-end, transforming ideas into optimized, high-performance,
+              and functional web solutions. My focus is on delivering reliable,
+              maintainable system.
+            </p>
+          </div>
+        </div>
+        <div class="flex  gap-2 ">
+          <div
+            class="w-[48%] fade-left h-fit bg-white rounded-lg flex flex-col text-white items-center p-6 bg-opacity-40 border border-white"
+          >
+            <span
+              data-icon="hugeicons:web-design-02"
+              class="iconify text-[5rem] max-2xl:text-5xl"
+            ></span>
+            <h1 class="text-3xl max-2xl:text-xl">Problem Solving</h1>
+            <p class="mt-3 text-center text-md max-2xl:text-sm">
+              I excel at analyzing challenges, identifying innovative solutions,
+              and implementing effective strategies to overcome obstacles. My
+              approach is both creative and logical, ensuring every problem is
+              met with a practical resolution.
+            </p>
+          </div>
+          <div
+            class="w-[48%] fade-right h-fit bg-white rounded-lg flex flex-col text-white items-center p-6 bg-opacity-40 border border-white"
+          >
+            <span
+              data-icon="hugeicons:web-design-02"
+              class="iconify text-[5rem] max-2xl:text-5xl"
+            ></span>
+            <h1 class="text-3xl max-2xl:text-xl">Communication Skill</h1>
+            <p class="mt-3 text-center text-md max-2xl:text-sm">
+              Clear and effective communication is at the heart of my workflow.
+              Whether collaborating with teams, explaining technical concepts to
+              clients, or managing project timelines, I ensure everyone stays
+              aligned and informed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="h-screen w-full flex items-center justify-center fade-up">
+      <div
+        class="h-fit bg-white bg-opacity-40 border rounded-lg p-10 text-white flex flex-col items-center justify-center"
+      >
+        <h1 class="text-center text-6xl">Got Idea In your mind?</h1>
+
+        <div class="flex items-center gap-2 mt-5">
+          <span
+            class="iconify text-3xl hover:scale-125 transition"
+            data-icon="mdi:phone"
+          ></span>
+          <h1>09067543749</h1>
+        </div>
+
+        <div class="flex items-center gap-2 mt-2">
+          <span
+            class="iconify text-3xl hover:scale-125 transition"
+            data-icon="mdi:location"
+          ></span>
+          <h1>Brgy San Roque Pandi, Bulacan</h1>
+        </div>
+
+        <iframe
+          class="mt-6"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7712.862378418784!2d120.93735364817358!3d14.85714839825024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ac76d436a2c3%3A0x68223a43a8b51c38!2sBarangay%20Hall%20San%20Roque!5e0!3m2!1sen!2sph!4v1733495375967!5m2!1sen!2sph"
+          width="1000"
+          height="200"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <a
+          href="mailto:astudillokyleangelo@gmail.com"
+          class="bg-white rounded-full py-1.5 px-5 text-[#12615a] font-semibold hover:bg-opacity-80 mt-5"
+        >
+          Message Me
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
